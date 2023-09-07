@@ -1,0 +1,30 @@
+#work{
+    min-height: calc(100hv - 4rem);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    max-width: 60rem;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.abcimg{
+    object-fit: cover;
+    height: 20rem;
+    width: 18rem;
+    margin: 0.5rem;
+    border-radius: 12px;
+}
+
+.w-btn{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 585px) {
+    .abcimg{
+        height: 48vh;
+    }
+    
+}

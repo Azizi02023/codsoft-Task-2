@@ -1,0 +1,62 @@
+#intro{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden; 
+    padding-top: 3rem;  
+}
+.bg{
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 30rem; /* Adjust this value to your desired height */
+    width: 20rem;  /* Adjust this value to maintain aspect ratio */
+    padding: 6rem;
+    padding-top: 10rem;
+    
+}
+
+.introContent{
+    height: 100vh;
+    width: 100vh;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+
+}
+.introname{
+    color: yellow;
+}
+.intropara{
+ font-size: medium;
+ font-weight: 100;
+}
+button{
+    background-color: gray;
+    color: white;
+    border-radius: 4px;
+    padding: 12px 20px;
+}
+button:hover{
+    background-color: brown;
+    color: blue;
+    
+}
+
+@media screen and (max-width: 850) {
+    .bg{
+        right: -20vw;
+    }
+    
+}
